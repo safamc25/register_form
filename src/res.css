@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        height: 100%;
+        
+        overflow: hidden;
+    }
+
+
+.image-section {
+    flex: 1;
+    /* background: #222; */
+    overflow: hidden;
+}
+
+.image-section img {
+    width: 766px;
+    height: 1024px;
+    object-fit: cover;
+    
+}
+
+.form-section {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background: white;
+    border-radius: 60px 0px 0px 60px;
+    padding: 60px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: 1024px;
+    z-index: 10;
+}
+
+form{
+    margin-top: 10%;
+}
+    
+
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+  Width: 37px;
+  Height:48.04px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.google-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: white;
+    color: black;
+    border: 1px solid ;
+    border-color: #CBCAD7;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-btn img {
+    margin-left: 10px;
+    width: 20px;
+}
+
+.or-text {
+    text-align: center;
+    margin: 20px 0;
+    color: #888;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.input-group img{
+    gap: 5px;
+    margin-top: 16px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 15px;
+    padding-right: 40px;
+    border: 1px solid #ccc;
+   border-radius: 6px 6px 6px 6px;
+    font-size: 16px;
+    margin-top: 10px;
+
+    
+}
+
+.input-group img {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    cursor: pointer;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #6A5ACD;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.login-link a {
+    color: #6A5ACD;
+    text-decoration: none;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 32px;
+    height: 32px;
+    gap: 24px;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    margin: 15px 15px 20px 110px;
+}
+
+.separator .line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ccc;
+    max-width: 30%; /* Adjust this percentage to change the length of the lines */
+}
+
+.separator p {
+    margin: 0 15px;
+    color: #888;
+    font-size: 14px;
+    text-align: center;
+}
